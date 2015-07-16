@@ -1,0 +1,4 @@
+.v-ie7 input.v-textfield .redborder,
+.v-ie8 input.v-textfield .redborder {
+	border-top-color:#F00;
+}

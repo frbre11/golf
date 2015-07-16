@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript">
+    var hashUri = window.location.hash;
+    var searchUri = window.location.search;
+    var baseUri = (hashUri.length == 0 ? (searchUri.length == 0 ? window.location.href
+    : window.location.href.substring(0, window.location.href.length - searchUri.length))
+    : window.location.href.substring(0, window.location.href.length - hashUri.length));
+    if (baseUri.indexOf("index.html") > 0) {
+        baseUri = baseUri.substring(0, baseUri.length - 10);
+    }
+    var newUri = baseUri
+        + "chg/"
+        + (hashUri.length == 0 ? (searchUri.length == 0 ? "" : searchUri) : hashUri);
+    window.location = newUri;
+</script>
+</head>
+<body>
+</body>
+</html>
