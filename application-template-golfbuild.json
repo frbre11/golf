@@ -111,7 +111,7 @@
         "source": {
           "type": "Git",
           "git": {
-            "uri": "git://github.com/bparees/javaee7-hol.git"
+            "uri": "git://github.com/frbre11/golf.git"
           }
         },
         "strategy": {
