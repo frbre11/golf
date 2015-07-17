@@ -44,7 +44,7 @@
         "creationTimestamp": null
       },
       "spec": {
-        "host": "www.example.com",
+        "host": "www.examplegolf.com",
         "to": {
           "kind": "Service",
           "name": "frontendgolf"
