@@ -5,7 +5,7 @@
     "name": "golf",
     "creationTimestamp": null,
     "annotations": {
-      "description": "Builds and deploys a sample JEE app",
+      "description": "Builds and deploys the Golf Handicap Calculator JEE application",
       "iconClass": "icon-jboss",
       "tags": "instant-app,javal,golf"
     }
@@ -40,7 +40,7 @@
       "kind": "Route",
       "apiVersion": "v1",
       "metadata": {
-        "name": "route-edge",
+        "name": "route-edge-golf",
         "creationTimestamp": null
       },
       "spec": {
@@ -238,6 +238,6 @@
     }
   ],
   "labels": {
-    "template": "application-template-jeebuild"
+    "template": "application-template-golfbuild"
   }
 }
