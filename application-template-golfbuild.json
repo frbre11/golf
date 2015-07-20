@@ -7,7 +7,7 @@
     "annotations": {
       "description": "Builds and deploys the Golf Handicap Calculator JEE application",
       "iconClass": "icon-jboss",
-      "tags": "instant-app,javal,golf"
+      "tags": "instant-app,java,golf"
     }
   },
   "objects": [
