@@ -159,7 +159,7 @@
             "imageChangeParams": {
               "automatic": true,
               "containerNames": [
-                "jee"
+                "golf"
               ],
               "from": {
                 "kind": "ImageStreamTag",
@@ -186,7 +186,7 @@
           "spec": {
             "containers": [
               {
-                "name": "jee",
+                "name": "golf",
                 "image": "golf",
                 "ports": [
                   {
